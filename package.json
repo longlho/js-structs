@@ -1,0 +1,29 @@
+{
+  "name": "js-structs",
+  "version": "0.1.0",
+  "description": "Common data structures in JS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/longlho/js-structs.git"
+  },
+  "keywords": [
+    "data",
+    "structures",
+    "heap",
+    "priorityqueue"
+  ],
+  "devDependencies": {
+    "mocha": "latest"
+  },
+  "author": "Long Ho",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "ef785eb66bbfe694e1a8dca2716c30b2b5367842"
+}
