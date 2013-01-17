@@ -33,6 +33,10 @@
     this.isArray = _.isArray || function (obj) {
       return Object.prototype.toString.call(obj) == '[object Array]';
     };
+
+    this.isString = _.isString || function (obj) {
+      return Object.prototype.toString.call(obj) == '[object String]';
+    };
   }();
 
   if (module && module.exports) {
