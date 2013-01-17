@@ -1,3 +1,4 @@
+/*jslint laxcomma:true*/
 (function () {
 
   var Utils = this.Utils || require('./Utils');
@@ -8,7 +9,7 @@
 
     //Initialization
     var _init = function () {
-      _nodes = [];      
+      _nodes = [];
       if (heap) {
         self.insertAll(heap);
       }
@@ -78,14 +79,14 @@
     };
 
     _init();
-  }
+  };
 
   if (module && module.exports) {
     module.exports = Heap;
   } else if (exports) {
     exports = Heap;
   } else {
-    this.Heap = Heap
+    this.Heap = Heap;
   }
 
 })();

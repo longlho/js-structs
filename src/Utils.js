@@ -33,15 +33,14 @@
     this.isArray = _.isArray || function (obj) {
       return Object.prototype.toString.call(obj) == '[object Array]';
     };
-
-  };
+  }();
 
   if (module && module.exports) {
     module.exports = Utils;
   } else if (exports) {
     exports = Utils;
   } else {
-    this.Utils = Utils
+    this.Utils = Utils;
   }
   
 })();
